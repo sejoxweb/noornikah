@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "ravi_kumar",
+      "password": "ravi123",
+      "firstName": "Ravi",
+      "lastName": "Kumar",
+      "age": 25,
+      "gender": "Male",
+      "education": "Bachelor of Engineering",
+      "country": "India",
+      "city": "Hyderabad",
+      "state": "Telangana"
+    },
+    {
+      "id": 2,
+      "userName": "maria_garcia",
+      "password": "maria456",
+      "firstName": "Maria",
+      "lastName": "Garcia",
+      "age": 32,
+      "gender": "Female",
+      "education": "Master of Business Administration",
+      "country": "Spain",
+      "city": "Madrid",
+      "state": "Madrid"
+    },
+    {
+      "id": 3,
+      "userName": "john_smith",
+      "password": "john789",
+      "firstName": "John",
+      "lastName": "Smith",
+      "age": 28,
+      "gender": "Male",
+      "education": "Doctor of Philosophy",
+      "country": "United States of America",
+      "city": "New York City",
+      "state": "New York"
+    }
+  ]
+}
