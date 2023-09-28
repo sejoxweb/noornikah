@@ -1,6 +1,6 @@
 import { Button, Checkbox, Form, Input } from "antd";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Login = ({ users, onLogin }) => {
   const [loggedInSuccess, setLoggedInSuccess] = useState(false);
@@ -90,6 +90,7 @@ const Login = ({ users, onLogin }) => {
           </Button>
         </Form.Item>
       </Form>
+      <Link to="/signup">Signup</Link>
       {loggedInSuccess && <h1>user logged in successfully</h1>}
     </div>
   );

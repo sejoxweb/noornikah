@@ -7,6 +7,7 @@ import Profile from "./pages/Profile/Profile";
 import Home from "./pages/Home/Home";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import Navigation from "./components/Navigation/Navigation";
+import SignUp from "./pages/SignUp/SignUp";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -48,6 +49,10 @@ function App() {
             element={
               <Login users={users} onLogin={(user) => setCurrentUser(user)} />
             }
+          />
+          <Route
+            path="/signup"
+            element={<SignUp onSignUp={(user) => setCurrentUser(user)} />}
           />
         </Routes>
       </BrowserRouter>

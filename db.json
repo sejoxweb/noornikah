@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "id": 1,
-      "userName": "ravi_kumar",
+      "id": 101,
+      "userName": "ravi_kumart",
       "password": "ravi123",
       "firstName": "Ravi",
       "lastName": "Kumar",
@@ -14,7 +14,7 @@
       "state": "Telangana"
     },
     {
-      "id": 2,
+      "id": 102,
       "userName": "maria_garcia",
       "password": "maria456",
       "firstName": "Maria",
@@ -27,7 +27,7 @@
       "state": "Madrid"
     },
     {
-      "id": 3,
+      "id": 103,
       "userName": "john_smith",
       "password": "john789",
       "firstName": "John",
@@ -38,6 +38,74 @@
       "country": "United States of America",
       "city": "New York City",
       "state": "New York"
+    },
+    {
+      "id": 104,
+      "userName": "ravi_kumar",
+      "password": "ravi123",
+      "firstName": "Ravi",
+      "lastName": "Kumar",
+      "age": 25,
+      "gender": "Male",
+      "education": "Bachelor of Engineering",
+      "country": "India",
+      "city": "Hyderabad",
+      "state": "Telangana"
+    },
+    {
+      "email": "jafar1405@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "nickname": "fiza",
+      "prefix": "86",
+      "phone": "test",
+      "gender": "male",
+      "agreement": true,
+      "id": 105
+    },
+    {
+      "email": "jafar1405@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "userName": "jafar1405",
+      "prefix": "86",
+      "phone": "999",
+      "gender": "male",
+      "agreement": true,
+      "id": 106
+    },
+    {
+      "email": "jafar1405@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "userName": "jafar1405",
+      "prefix": "86",
+      "phone": "999",
+      "gender": "male",
+      "agreement": true,
+      "id": 107
+    },
+    {
+      "email": "jafar1405@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "userName": "jafar1405",
+      "prefix": "86",
+      "phone": "999",
+      "gender": "male",
+      "agreement": true,
+      "id": 108
+    },
+    {
+      "email": "jafar1405@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "userName": "jafar1405",
+      "prefix": "86",
+      "phone": "999",
+      "gender": "male",
+      "agreement": true,
+      "id": 109
     }
   ]
 }
